@@ -53,12 +53,15 @@ class MainActivity : AppCompatActivity() {
                     println(error)
                 }
             })
+
     }
     private fun showMovieDetails(movie: Movie) {
         val intent = Intent(this, MovieDetails::class.java)
         intent.putExtra("MOVIE", movie)
         startActivity(intent)
     }
+
+
 
 
 }

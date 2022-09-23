@@ -30,7 +30,6 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
-                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/bb3afa2ec53f7bc3f3309f00df969d67/transformed/jetified-viewbinding-7.2.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8cab25ccf26769f652f1b484ada9412c/transformed/jetified-kotlinx-serialization-json-jvm-1.4.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/13453ef73408b7a0d20b6e5aeef3dcc3/transformed/jetified-material-1.2.0-alpha04-api.jar</arg>
@@ -118,8 +117,8 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/a16ad6e135bc4efd518c831812a16484/transformed/jetified-rxandroid-2.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/091228aa84548f4d173f07fc46b2e9b7/transformed/jetified-rxjava-2.2.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/c2659657c25b8735fbc2684024543490/transformed/jetified-reactive-streams-1.0.2.jar</arg>
-                <arg>$USER_HOME$/Library/Android/sdk/platforms/android-32/android.jar</arg>
-                <arg>$USER_HOME$/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-32/android.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debugUnitTest" />
